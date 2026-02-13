@@ -16,3 +16,4 @@ mi_diccionario = {"mi_lista": mi_lista,
 print("Llave para accesar a mi diccionario mi_lista", mi_diccionario["mi_lista"])
 print("Llave para accesar a mi diccionario Pi", mi_diccionario["Pi"])
 print("Llave para accesar a mi diccionario Tel", mi_diccionario["Tel"])
+
