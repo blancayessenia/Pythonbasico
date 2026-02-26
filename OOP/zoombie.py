@@ -9,4 +9,6 @@ class zoombie(Enemigo):
 
     def propagar_enfermedad(self):
         print("El zoombie esta tratando de propagar la enfermedad!!!")
+
+        
         
