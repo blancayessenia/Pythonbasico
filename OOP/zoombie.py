@@ -18,5 +18,6 @@ class zoombie(Enemigo):
             print("zoombie ha regenerado su energia con 2HP!")
             
 
+
         
         
