@@ -10,5 +10,13 @@ class zoombie(Enemigo):
     def propagar_enfermedad(self):
         print("El zoombie esta tratando de propagar la enfermedad!!!")
 
+    def ataque_especial(self):
+        print("zoombie ataque especial")
+        funcion_ataque_especial=random.random() < 0.50
+        if funcion_ataque_especial:
+            self.puntos_energia += 2
+            print("zoombie ha regenerado su energia con 2HP!")
+            
+
         
         

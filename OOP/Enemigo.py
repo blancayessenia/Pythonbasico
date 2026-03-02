@@ -18,4 +18,10 @@ class Enemigo:
             print(f"{self.__tipo_Enemigo} se mueve cerca de ti!!! ")
 
         def atacar(self):
-            print(f"{self.__tipo_Enemigo} ataca con un {self.ataque}de dar")     
+            print(f"{self.__tipo_Enemigo} ataca con un {self.ataque}de dar")    
+
+        def ataque_especial(self):
+            print("Zoombie ataque especial!!")
+            funcion_ataque_especial = random.random() < 0.50
+            if funcion_ataque_especial :
+                self.puntos_energia += 1 
