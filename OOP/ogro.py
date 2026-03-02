@@ -1,4 +1,5 @@
 from Enemigo import *
+import random
 
 class ogro(Enemigo):
     def __init__(self, puntos_energia=20, ataque=3):
